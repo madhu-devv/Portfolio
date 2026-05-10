@@ -11,7 +11,7 @@ function NavBar() {
             <div className="right-side">
               <a className="poppins" href="#home">Home</a>
               <a className="poppins" href="#project">Projects</a>
-              <a className="poppins" href="">Contact</a>
+              <a className="poppins" href="#Contact">Contact</a>
             </div>
 
         </div>

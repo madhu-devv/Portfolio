@@ -346,6 +346,19 @@ span {
   stroke-dashoffset: 90; 
 }
 
+.React,
+  .JavaScript,
+  .HTML,
+  .CSS {
+    position: relative;
+  }
+
+  .icon {
+    top: 35px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
 .icon {
   font-size: 50px;
   color: white;
@@ -353,21 +366,7 @@ span {
   top: 35px;
 }
 
-.react-icon {
-  left: 105px;
-}
 
-.js-icon {
-  left: 360px;
-}
-
-.html-icon {
-  right: 357px;
-}
-
-.css-icon {
-  right: 103px;
-}
 
 /* Contact Page */
 
