@@ -12,10 +12,10 @@ function Contacts() {
         e.preventDefault();
 
         emailjs.sendForm(
-            "service_e29of7j",
-            "template_71nfske",
+            import.meta.env.VITE_SERVICE_ID,
+            import.meta.env.VITE_TEMPLATE_ID,
             form.current,
-            "3Mu0xgo524cRz0wwm"
+            import.meta.env.VITE_PUBLIC_KEY
         )
         .then(() => {
             setStatus("Message sent successfully!");
