@@ -398,6 +398,7 @@ span {
 
 .contact-left {
   padding: 50px;
+  /* background-color: #b7a8c9; */
 }
 
 .contact-left p, .contact-left a {
@@ -426,7 +427,7 @@ span {
   /* background-color: #8b5cf6; */
   display: flex;
   flex-direction: column;
-  padding: 50px;
+  padding: 40px;
   gap: 20px;
 }
 
@@ -482,6 +483,12 @@ textarea {
 .contact-page,
 .project {
   min-height: 100vh;
+}
+
+.status-message{
+    /* margin-top: 10px; */
+    font-size: 14px;
+    min-height: 20px;
 }
 
 @media (max-width: 768px) {
